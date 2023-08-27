@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel='stylesheet' href='style.css'>
+        <title>PizzaShop</title>
+
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap">
+
+        <!--Box icons-->
+        <link rel="stylesheet"
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+
+    <body>
+        <header>
+            <a href="#" class="logo">
+                <img src="images/new-logo.svg" alt="" width="240">
+            </a>
+
+            <ul class="nav-list">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+            
+            <div class="nav-icons">
+                <a href="#"><i class="bx bx-search"></i></a>
+                <a href="#"><i class='bx bx-cart'></i></a>
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </header>
+
+        <!--Home section-->
+        <section class="home" id="home">
+             <div class="home-text">
+                <h1>Meet, <span>Eat &</span> <br> Enjoy the true <br> taste</h1>
+                <a href="#menu" class="btn">Explore Menu<i class="bx bxs-right-arrow">  </i></a>
+             </div>
+        
+             <div class="home-img">
+                <img src="images/pizza.png" width="100%">
+             </div>
+        </section>
+
+        <!--Container section-->
+        <section class="container">
+
+            <div class="container-box">
+                <img src="images/timer.png">
+                <h3>10:00 am - 9:00 pm</h3>
+                <a href="#">Working Hours</a> 
+            </div>
+
+            <div class="container-box">
+                <img src="images/location.png">
+                <h3>307 Prospect St</h3>
+                <a href="#">Get Directions</a> 
+            </div>
+
+            <div class="container-box">
+                <img src="images/call.png">
+                <h3>+7(707)359-03-05<</h3>
+                <a href="#">Call Us Now</a> 
+            </div>
+
+        </section>
+
+        <!--About us-->
+
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="images/about.png">
+            </div> 
+            <div class="about-text">
+                 <h2>Introducing<br>a Slice of Heaven</h2>
+                 <p>Satisfy Your Cravings at Our Online Pizza Store! Choose from a 
+                    variety of traditional and innovative toppings, and enjoy our crispy yet chewy crust.<br> <br>
+                    Order online effortlessly and get it delivered to your doorstep.
+                    Quality and freshness are guaranteed, and don't forget to check out our special offers and rewards. 
+                    Join us for a delightful pizza experience today!</p>
+            </div>
+        </section>
+        
+        <!--Menu-->
+        <section class="menu" id="menu">
+            <div class="middle-text">
+                <h2>Our menu</h2>
+                <p>Get the pizza from the menu or <a href="#"> Create your own</a></p>
+            </div>
+
+            <div class="shop-content">
+                <div class="row">
+                    <div class="pizza-infos">
+                        <img src="images/cheese-pie.png" alt="">
+                        <h3>Cheese pizza</h3>
+                        <p>Classic NY style cheese pie</p>
+                    </div>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>$17.95</h6>
+                        </div>
+                        <div class="s-btn">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                        <a href="#"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="pizza-infos">
+                        <img src="images/pepperoni.png" alt="">
+                        <h3>Pepperoni pizza</h3>
+                        <p>Cheese + pepperoni</p>
+                    </div>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>$20.95</h6>
+                        </div>
+                        <div class="s-btn">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                        <a href="#"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="pizza-infos">
+                        <img src="images/chicken-pie.png" alt="">
+                        <h3>Chicken sausage pizza</h3>
+                        <p>Italian chicken sausage, onions, mozzarella, bell peppers</p>
+                    </div>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>$20.95</h6>
+                        </div>
+                        <div class="s-btn">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                        <a href="#"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="pizza-infos">
+                        <img src="images/primavera-pie.png" alt="">
+                        <h3>Primavera pizza</h3>
+                        <p>Mozzarella, bell and roasted bell peppers, mushrooms, spinach, olives, onions</p>
+                    </div>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>$20.95</h6>
+                        </div>
+                        <div class="s-btn">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                        <a href="#"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="pizza-infos">
+                        <img src="images/meat-lovers-pie.png" alt="">
+                        <h3>Meat Lovers pizza</h3>
+                        <p>Mozzarella, pepperoni, smoked ham, sausage, bacon</p>
+                    </div>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>$23.95</h6>
+                        </div>
+                        <div class="s-btn">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                        <a href="#"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="pizza-infos">
+                        <img src="images/breakfast-pie.png" alt="">
+                        <h3>Breakfast pizza</h3>
+                        <p>6 whole eggs, ricotta, smoked ham, onions, mushrooms, mozzarella</p>
+                    </div>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>$23.95</h6>
+                        </div>
+                        <div class="s-btn">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                        <a href="#"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="pizza-infos">
+                        <img src="images/buffalo-pie.png" alt="">
+                        <h3>Buffalo style pizza</h3>
+                        <p>Chicken, hot sause, blue cheese, red onions</p>
+                    </div>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>$20.95</h6>
+                        </div>
+                        <div class="s-btn">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                        <a href="#"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="pizza-infos">
+                        <img src="images/hawaiian-pie.png" alt="">
+                        <h3>Hawaiian pizza</h3>
+                        <p>Mozzarella, pineapples, smoked virginia ham, thyme</p>
+                    </div>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>$20.95</h6>
+                        </div>
+                        <div class="s-btn">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                        <a href="#"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="pizza-infos">
+                        <img src="images/supreme-pe.png" alt="">
+                        <h3>Supremo pizza</h3>
+                        <p>Spinach, olives, smoked ham, red bell peppers, pepperoni, mushrooms, onions</p>
+                    </div>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>$23.95</h6>
+                        </div>
+                        <div class="s-btn">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                        <a href="#"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="pizza-infos">
+                        <img src="images/Five-cheese-pizza.png" alt="">
+                        <h3>Five cheese pizza</h3>
+                        <p>Ricotta, romano, mozzarella, blue cheese, asiago cheese</p> 
+                    </div>
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>$20.95</h6>
+                        </div>
+                        <div class="s-btn">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                        <a href="#"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="pizza-infos">
+                        <img src="images/amalfi-pie.png" alt="">
+                        <h3>Amalfi pizza</h3>
+                        <p>Anchovies, kalamata olives, cherry peppers(hot), mozzarella</p>
+                    </div>
+                    
+                    <div class="in-text">
+                        <div class="price">
+                            <h6>$20.95</h6>
+                        </div>
+                        <div class="s-btn">
+                            <a href="#">Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="top-icon">
+                        <a href="#"><i class='bx bx-heart'></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Contact us-->
+        <section class="contact" id="contact">
+            <div class="contact-content">
+
+                <div class="contact-text">
+                    <h2>Contact Us</h2>
+                    <p>Have any questions, suggestions, or just want to chat about pizza? 
+                        Our customer support team is available around the clock to assist you. 
+                        You can reach us via our website, social media channels, or directly by phone.</p>
+                    <div class="social">
+                        <a href=""><i class='bx bxl-facebook'></i></a>
+                        <a href=""><i class='bx bxl-instagram-alt' ></i></a>
+                        <a href=""><i class='bx bxl-github' ></i></a>
+                    </div>
+                </div>
+
+                <div class="details">
+                    <div class="main-d">
+                        <a href="#"><img src="images/location.png" width="28px"> 307 Prospect St, NY</a>
+                    </div>
+                    <div class="main-d">
+                        <a href="#"><img src="images/call.png" width="28px"> +7(707)359-03-05</a>
+                    </div>
+                    <div class="main-d">
+                        <a href="#"><i class='bx bxs-envelope'></i> azizakz555@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Scroll top-->
+
+        <a href="#" class="scroll">
+            <i class='bx bxs-up-arrow-circle'></i>
+        </a>
+
+        <script src="index.js"></script>
+
+    </body>
+
+</html>
